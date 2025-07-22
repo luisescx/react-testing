@@ -8,9 +8,6 @@ test("should render heading with correct text", () => {
   // Render the App component
   render(<App />);
 
-  // Log the DOM tree for debugging
-  screen.debug();
-
   // Find heading by its text content
   const heading = screen.getByText("React Testing Library");
 
